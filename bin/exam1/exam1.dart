@@ -25,8 +25,16 @@ dynamic circleArea(num r) {
 
 int? parseAndAddOne(String? input) {
   // TODO 3
+  if (input == null) {
+    return null;
+  }
 
-  return 0;
+  try {
+    int parsed = int.parse(input);
+    return parsed + 1;
+  } on FormatException {
+    throw Exception('Input harus berupa angka');
+  }
 
   // End of TODO 3
 }
