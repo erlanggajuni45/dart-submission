@@ -2,7 +2,7 @@ dynamic studentInfo() {
   // TODO 1
 
   var name = 'Erlangga Juni Saputra';
-  var favNumber = 45;
+  var favNumber = 5;
   var isDicodingStudent = true;
 
   // End of TODO 1
