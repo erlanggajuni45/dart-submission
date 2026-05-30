@@ -6,8 +6,7 @@ class DicodingStudent {
 
   int incrementAge() {
     // TODO 1
-
-    return 0;
+    return ++age;
 
     // End of TODO 1
   }
