@@ -1,7 +1,7 @@
 Set uniqueElement(List<int> myList) {
   // TODO 1
 
-  return {};
+  return Set.from(myList);
 
   // End of TODO 1
 }
