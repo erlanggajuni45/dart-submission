@@ -6,7 +6,7 @@ class DicodingStudent {
 
   int incrementAge() {
     // TODO 1
-    return ++age;
+    return age+1;
 
     // End of TODO 1
   }
@@ -14,7 +14,7 @@ class DicodingStudent {
   Future<String> getStudentInfo() {
     // TODO 2
 
-    return Future.value("");
+    return Future.delayed(Duration(seconds: 3), () => 'Nama Lengkap: $fullName, Umur: $age tahun' );
 
     // End of TODO 2
   }
