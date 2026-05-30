@@ -1,9 +1,9 @@
 dynamic studentInfo() {
   // TODO 1
 
-  var name;
-  var favNumber;
-  var isDicodingStudent;
+  var name = 'Erlangga Juni Saputra';
+  var favNumber = 45;
+  var isDicodingStudent = true;
 
   // End of TODO 1
   return [name, favNumber, isDicodingStudent];
