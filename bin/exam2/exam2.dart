@@ -22,6 +22,12 @@ String getStars(int n) {
   var result = '';
 
   // TODO 3
+  for(int i = n; i > 0; i--) {
+    for (int j = i; j > 0; j--) {
+      result += '*';
+    }
+    result += '\n';
+  }
 
   // End of TODO 3
 
