@@ -1,7 +1,6 @@
 dynamic oddOrEven(int number) {
   // TODO 1
-
-  return null;
+  return number % 2 == 0 ? 'Genap' : 'Ganjil';
 
   // End of TODO 1
 }
