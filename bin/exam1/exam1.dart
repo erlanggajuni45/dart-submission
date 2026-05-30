@@ -17,7 +17,7 @@ dynamic circleArea(num r) {
 
     // TODO 2
 
-    return 0;
+    return pi * r * r;
 
     // End of TODO 2
   }
