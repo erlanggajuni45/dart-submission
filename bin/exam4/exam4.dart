@@ -23,7 +23,7 @@ class DicodingStudent {
 dynamic createStudent() {
   // TODO 3
 
-  return null;
+  return DicodingStudent('abc', 17);
 
   // End of TODO 3
 }
