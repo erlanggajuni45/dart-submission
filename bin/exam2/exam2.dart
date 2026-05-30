@@ -9,6 +9,9 @@ dynamic createListOneToX(int x) {
   final List<int> list = [];
 
   // TODO 2
+  for (int i = 1; i <= x; i++) {
+    list.add(i);
+  }
 
   // End of TODO 2
 
