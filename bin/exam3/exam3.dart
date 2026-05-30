@@ -9,7 +9,7 @@ Set uniqueElement(List<int> myList) {
 Map<String, String> buildFutsalPlayersMap() {
   // TODO 2
 
-  return {};
+  return {'Goalkeeper': 'Andri', 'Anchor': 'Irfan', 'Pivot': 'Fikri', 'Right Flank': 'Aldi', 'Left Flank': 'Hafid'};
 
   // End of TODO 2
 }
